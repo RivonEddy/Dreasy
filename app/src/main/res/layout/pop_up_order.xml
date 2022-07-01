@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/close_popup"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_gravity="end"
+        android:visibility="invisible"
+        android:src="@drawable/ic_baseline_cancel_24"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/img_11"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_baseline_stop_circle_24"
+        android:layout_marginTop="-40dp"
+        android:layout_marginStart="100dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="John Doe"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"/>
+
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+    android:layout_marginTop="10dp"
+        android:text="P a y m e n t" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+
+        <RadioButton
+            android:id="@+id/rad_btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="#5,000        - 1day"
+            android:backgroundTint="@color/dark_red"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rad_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="#25,000       - 1week"
+            android:backgroundTint="@color/dark_red"/>
+
+        <RadioButton
+            android:id="@+id/rad_btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="#50,000       - 1month"
+            android:backgroundTint="@color/dark_red"/>
+
+        <RadioButton
+            android:id="@+id/rad_btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="#200,000      - 6months"
+            android:backgroundTint="@color/dark_red"/>
+
+        <RadioButton
+            android:id="@+id/rad_btn5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="#400,000      - 1year"
+            android:backgroundTint="@color/dark_red"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Submit"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gradient_curve" />
+
+</LinearLayout>
+
